@@ -6,9 +6,9 @@
 The standby network is to save the WiFi and password to the device. When the device is currently connected to WIFI and there is no network, the device can fetch the saved WIFI by itself. You can also actively switch through the app. The device standby network case is provided here.
 
 ## Features
--Gets the current network of the device
--Switching device network
--Get and set up the standby network
+- Gets the current network of the device
+- Switching device network
+- Get and set up the standby network
 
 ### Gets the current network of the device
 
