@@ -1,16 +1,16 @@
-#设备备用网络
+# 设备备用网络
 
 [中文版](README_zh.md) |[English](README.md)
 
 
 备用网络就是将wifi和密码保存到设备端。当设备当前连接wifi没有网络时候，设备可以自己取连接已保存的wifi。也可以通过app进行主动切换。这里提供设备备用网络案例。
 
-##功能介绍
--获取设备当前网络
--切换设备网络
--获取、设置备用网络
+## 功能介绍
+- 获取设备当前网络
+- 切换设备网络
+- 获取、设置备用网络
 
-###获取设备当前网络
+### 获取设备当前网络
 
 
 ```
@@ -39,7 +39,7 @@ network | 区分有线网络和WiFi，0表示WiFi，1表示有线
 version | version
 hash | 网络数据hash值，用于区分网络
 
-###获取当前设备中已有的备用wifi列表
+### 获取当前设备中已有的备用wifi列表
 
 ```
 wifiBackupManager = TuyaHomeSdk.getWifiBackupManager(devId)
@@ -59,7 +59,7 @@ wifiBackupManager?.onDestroy()
 maxNum | 可设置的最大备用网络数
 backupList | 设备的备用网络
 
-###生成WiFi信息的hash数据
+### 生成WiFi信息的hash数据
 
 用于和备用网络的hash比较，判断是否已经添加过该网络
 
@@ -68,7 +68,7 @@ backupList | 设备的备用网络
 val hash = SHA256Util.getBase64Hash(dev?.getLocalKey() + ssid + pwd)
 ```
 
-###新增备用网络并切换
+### 新增备用网络并切换
 
 ```
 wifiSwitchManager?.switchToNewWifi(ssid, pwd, object : ITuyaDataCallback<SwitchWifiResultBean> {
@@ -82,7 +82,7 @@ wifiSwitchManager?.switchToNewWifi(ssid, pwd, object : ITuyaDataCallback<SwitchW
 wifiBackupManager?.onDestroy()
 ```
 
-###切换到备用网络
+### 切换到备用网络
 
 ```
 wifiSwitchManager?.switchToBackupWifi(hash, object : ITuyaDataCallback<SwitchWifiResultBean> {
@@ -96,7 +96,7 @@ wifiSwitchManager?.switchToBackupWifi(hash, object : ITuyaDataCallback<SwitchWif
 wifiBackupManager?.onDestroy()
 ```
 
-###设置备用网络
+### 设置备用网络
 
 注意添加或者移除备用网络都可以通过该方法
 
