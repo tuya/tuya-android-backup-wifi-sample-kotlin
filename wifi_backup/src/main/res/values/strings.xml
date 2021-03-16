@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="ty_net_pool_device_net_info">Device Network Information</string>
+    <string name="ty_net_pool_device_net_name">Device Network</string>
+    <string name="ty_net_pool_device_net_intensity">Signal strength</string>
+    <string name="ty_net_pool_device_net_standby">Alternate Network</string>
+    <string name="ty_net_pool_offine_tip">Device network information failure, please check your network</string>
+    <string name="ty_net_pool_wired_net">Wired connection</string>
+    <string name="ty_net_pool_current_net_tip">Current network</string>
+    <string name="ty_net_pool_phone_wifi">Current network</string>
+    <string name="ty_net_pool_other">Other</string>
+    <string name="ty_net_pool_swich_net_success_toast">Success</string>
+    <string name="ty_net_pool_switch_failed">Failed to change the network. \nThe original Wi-Fi connection is restored.</string>
+    <string name="ty_net_pool_current_net">Current network</string>
+    <string name="ty_net_pool_add">Add</string>
+    <string name="ty_net_pool_add_btn">Add</string>
+    <string name="ty_net_pool_wifi">wifi</string>
+    <string name="ty_net_pool_pwd">password</string>
+    <string name="ty_net_pool_save">save</string>
+    <string name="ty_net_pool_standby_upper_limit_tip">Limit reached</string>
+    <string name="ty_net_pool_add_wifi_equal_to_standby_tip">This Wi-Fi already exists.</string>
+    <string name="ty_net_pool_upload_standby_fail_tip">Fail to add an alternate network. Your information will not be saved. Continue to leave?</string>
+    <string name="ty_net_pool_upload_standby_success_tip">Success</string>
+
+</resources>

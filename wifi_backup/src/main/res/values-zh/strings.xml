@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="ty_net_pool_device_net_info">设备网络信息</string>
+    <string name="ty_net_pool_device_net_name">设备网络</string>
+    <string name="ty_net_pool_device_net_intensity">信号强度</string>
+    <string name="ty_net_pool_device_net_standby">备用网络</string>
+    <string name="ty_net_pool_offine_tip">无法获取设备网络信息，请检查设备网络</string>
+    <string name="ty_net_pool_wired_net">有线连接</string>
+    <string name="ty_net_pool_current_net_tip">当前网络</string>
+    <string name="ty_net_pool_phone_wifi">手机当前网络</string>
+    <string name="ty_net_pool_other">其他...</string>
+    <string name="ty_net_pool_swich_net_success_toast">网络切换成功</string>
+    <string name="ty_net_pool_switch_failed">更换网络失败,设备已自动恢复原 Wi-Fi 连接</string>
+    <string name="ty_net_pool_current_net">设备当前网络</string>
+    <string name="ty_net_pool_add">添加...</string>
+    <string name="ty_net_pool_add_btn">添加</string>
+    <string name="ty_net_pool_wifi">wifi</string>
+    <string name="ty_net_pool_pwd">密码</string>
+    <string name="ty_net_pool_save">保存</string>
+    <string name="ty_net_pool_standby_upper_limit_tip">已到最大预设上限</string>
+    <string name="ty_net_pool_add_wifi_equal_to_standby_tip">该 Wi-Fi 已经存在</string>
+    <string name="ty_net_pool_upload_standby_fail_tip">备用网络添加失败，您输入的信息不会被保存，确定要退出吗</string>
+    <string name="ty_net_pool_upload_standby_success_tip">备用网络添加成功</string>
+
+</resources>

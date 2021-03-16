@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tuya.wifi_backup">
+
+    <application>
+    <activity
+        android:name=".activity.DeviceNetInfoActivity"
+        android:exported="false"
+        android:screenOrientation="portrait" />
+        <activity
+        android:name=".activity.DeviceNetListActivity"
+        android:exported="false"
+        android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StandbyNetActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
